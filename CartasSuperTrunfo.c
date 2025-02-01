@@ -23,22 +23,23 @@ int main() {
         8.Rio Grande do Sul*/
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    printf("Primeiro escolha com qual estado irá jogar:\n");
-    printf("Digite o nome entre as opções:\n");
-    printf("São Paulo - Rio de Janeiro - Minas Gerais - Bahia - Santa Catarina - Goiás - Amazonas - Rio Grande do Sul \n");
+    printf("Primeiro escolha com qual estado irá jogar!\n");
+    printf("Digite o as síglas dos estados entre as opções:\n");
+    printf(" SP-São Paulo - RJ-Rio de Janeiro - MG-Minas Gerais - BA-Bahia - SC-Santa Catarina - GO-Goiás - AM-Amazonas - RS-Rio Grande do Sul \n");
     scanf("%s", &estado);
     printf("\n");
-    printf("##Parabens! Você escolheu: %s\n", estado);
+    printf("##Você escolheu: %s\n", estado);
     printf("\n");
     printf("Agora digite o número de pontos turístico que seu estado terá: \n");
     scanf("%d", &pturisticos);
-    printf("Uau! Há %d pontos turisticos na sua carta do estado: %s!!!\n", pturisticos, estado);
+    printf("##Uau! Há %d pontos turisticos na sua carta do estado: %s!!!\n", pturisticos, estado);
     printf("\n");
     printf("Digite o número aproximado de habitantes da cidade escolhida\n");
     scanf("%u", &populacao);
     printf("##Registrado! Há %u habitantes no estado %s!!!\n", populacao, estado);
     printf("\n");
     printf("DADOS DA SUA CARTA:\n ESTADO: %s\n PONTOS TURÍSTICOS: %d\n HABITANTES: %u \n", estado, pturisticos, populacao);
+    printf("\n");
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
