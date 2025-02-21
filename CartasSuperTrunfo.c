@@ -23,9 +23,9 @@ struct carta2 {
 
 int main () {
 
- int option;
+ int option;//Para a funçao do-while usada no menu
  do{   
-    int escolha;
+    int escolha;//Para a segunda funçao de escolha das comparações
 
     struct carta1 carta1;
     struct carta2 carta2;
@@ -153,10 +153,10 @@ int main () {
                 case 1:
                 //Calculo do Super Poder da primeira carta
                 carta1.superPoder = carta1.area + carta1.pib + carta1.densidade + carta1.pib_per_capita + (float)carta1.pontos_turisticos + (float)carta1.populacao;
-                //printf("**PODER TOTAL carta 1: %.0f \n", carta1.superPoder);
+                
                 //Calculo do Super Poder da segunda carta
                 carta2.superPoder = carta2.area + carta2.pib + carta2.densidade + carta2.pib_per_capita + (float)carta2.pontos_turisticos + (float)carta2.populacao;
-                //printf("**PODER TOTAL carta 2: %.0f \n", carta2.superPoder);
+
 
                 //Comparação de Super poderes
                     printf("Calculando e comparando os Super Poderes entre as cartas... \n");
