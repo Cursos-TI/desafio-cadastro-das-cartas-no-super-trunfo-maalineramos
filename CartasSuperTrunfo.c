@@ -133,7 +133,7 @@ int main () {
             printf("PIB: R$ %.2f\n", carta2.pib);
             printf("DENSIDADE POPULACIONAL: %.0f hab/km²\n", carta2.densidade);
             printf("PIB PER CAPITA: R$ %.2f\n", carta2.pib_per_capita);
-            printf("\n");
+            printf("-----------------------------------------------------\n");
             
             do{
             //****Dando a opção de  comparação dos atributos
@@ -143,7 +143,7 @@ int main () {
             printf("3. Com base na Quantidade de pontos turísticos: Vence a carta com maior valor! \n");
             printf("4. Com base na Área da cidade: Vence a maior cidade! \n");
             printf("5. Com base no PIB: Vence a carta com maior valor! \n");
-            printf("6. Sair \n");
+            printf("6. Voltar ao Menu \n");
             scanf("%d", &escolha);
             printf("\n");
             
